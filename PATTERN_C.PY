@@ -1,0 +1,20 @@
+#WAP TO PATTERN PROGRAM PRINTING STARS '*' IN C SHAPE?
+for row in range(7):
+    for col in range(5):
+        if ((col == 0) and (row != 0 and row != 6)) or ((row == 0 or row == 6) and (col > 0)):
+            print("*", end = "")
+        else:
+            print(end = " ")
+    print()
+print()
+
+#WAP TO PATTERN PROGRAM PRINTING STARS '*' IN C SHAPE?
+str1 = ""
+for row in range(7):
+    for col in range(5):
+        if ((col == 0) and (row != 0 and row != 6)) or ((row == 0 or row == 6) and (col > 0)):
+            str1 = str1 + "*"
+        else:
+            str1 = str1 + " "
+    str1 = str1 + "\n"
+print(str1)
